@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+ 
+}
+
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-oswald: 'Oswald', sans-serif;
+
+  /* Colors */
+  --color-obsedian: #080808; /* Tailwind bg-gray-900 */
+  --color-white: #f7fafc; /* Tailwind text-gray-100 */
+
+  /* Font Sizes */
+  --text-sm: 0.875rem; /* Tailwind text-sm */
+  --text-base: 1rem; /* Tailwind text-base */
+  --text-lg: 1.125rem; /* Tailwind text-lg */
+  --text-xl: 1.25rem; /* Tailwind text-xl */
+  --text-2xl: 1.5rem; /* Tailwind text-2xl */
+  --text-3xl: 1.875rem; /* Tailwind text-3xl */
+  --text-4xl: 2.25rem; /* Tailwind text-4xl */
+  --text-5xl: 3rem; /* Tailwind text-5xl */
+
+  --container-max-width: 1440px; /* Tailwind max-w-7xl */
+  --breakpoint-wide: 1440px; /* Tailwind md breakpoint */
+  --breakpoint-mobile: 768px; /* Tailwind sm breakpoint */
+  --breakpoint-tablet: 1024px; /* Tailwind lg breakpoint */
+
+}
+
+@utility container{
+  max-width: 1440px;
+  padding: 20px;
+  margin: 0 auto;
+}
