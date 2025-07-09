@@ -35,9 +35,9 @@ const Hero = () => {
                 <video 
                  alt="female model"
                  loop
-                 controls
                  autoPlay
                  playsInline
+                 controls 
                  className='rounded-lg object-cover w-full'>
                     <source src={model} type="video/mp4" />
                 </video>
