@@ -16,9 +16,9 @@ const Navbar = () => {
         text-[18px] sm:text-[16px] font-semibold font-montserrat'>
             <div className='max-w-7xl mx-auto flex items-center justify-between px-6 py-6'>
                 <div className='flex items-center space-x-8'>
-                    <a href="/" className=''>
+                    <Link to="/home" className=''>
                         <img src={logo} alt="Logo" className='w-[80px]' />
-                     </a>
+                    </Link>
 
                      {/* Desktop Navigation Links */}
                      <nav className='hidden md:flex items-center space-x-8 text-sm relative'>
@@ -64,9 +64,9 @@ const Navbar = () => {
                                 </div>
                             )}
                          </div>
-                        <Link to="/" className='hover:text-gray-300'>Pricing</Link>
-                        <Link to="/" className='hover:text-gray-300'>Contact</Link>
-                        <Link to="/" className='hover:text-gray-300'>Blog</Link>
+                        <Link to="/pricing" className='hover:text-gray-300'>Pricing</Link>
+                        <Link to="/contact" className='hover:text-gray-300'>Contact</Link>
+                        <Link to="/blog" className='hover:text-gray-300'>Blog</Link>
                      </nav>
                 </div>
 
