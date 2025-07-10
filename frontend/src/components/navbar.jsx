@@ -16,7 +16,7 @@ const Navbar = () => {
         text-[18px] sm:text-[16px] font-semibold font-montserrat'>
             <div className='max-w-7xl mx-auto flex items-center justify-between px-6 py-6'>
                 <div className='flex items-center space-x-8'>
-                    <Link to="/home" className=''>
+                    <Link to="/" className=''>
                         <img src={logo} alt="Logo" className='w-[80px]' />
                     </Link>
 
