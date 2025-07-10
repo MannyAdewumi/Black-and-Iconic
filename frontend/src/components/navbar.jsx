@@ -86,8 +86,8 @@ const Navbar = () => {
                     <button onClick={() => setSearchOpen(!searchOpen)} className='md:hidden text-white'>
                         <FaSearch className='text-2xl' />
                     </button>
-                    <Link to="/" className='hidden md:inline text-sm hover:text-gray-300'>Signup</Link>
-                    <Link to="/" className='hidden md:inline text-sm hover:text-gray-300'>Login</Link>
+                    <Link to="/register" className='hidden md:inline text-sm hover:text-gray-300'>Signup</Link>
+                    <Link to="/login" className='hidden md:inline text-sm hover:text-gray-300'>Login</Link>
 
                     <button onClick={() => setMenuOpen(!menuOpen)} className='md:hidden text-white'>
                         {menuOpen ? <FaTimes /> : <FaBars />}

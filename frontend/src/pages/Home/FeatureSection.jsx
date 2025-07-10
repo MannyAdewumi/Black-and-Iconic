@@ -1,14 +1,15 @@
 import React, {useState} from 'react'
 import runner from '../../assets/2148948548.jpg'
 import artist from '../../assets/2151709087.jpg'
-import artisan from '../../assets/2148931063.jpg'
+import creative from '../../assets/2151609172.jpg'
 import mapAfrica from '../../assets/AfricanMap.png'
+import { Link } from 'react-router-dom'
 
 const allFeatures = {
   Images: [
     { title: "Find high-quality images", img: runner },
     { title: "Create on-brand images", img: artist },
-    { title: "Upscale an image up to 10K", img: artisan },
+    { title: "Upload your work and get paid", img: creative },
   ],
   Video: [
     { title: "High quality videos", img: runner },
@@ -64,11 +65,11 @@ const FeatureSection = () => {
                 className="bg-gray-900 rounded-xl overflow-hidden hover:scale-105 transition-transform"
               >
                 
-                <img
+                <Link to="/register"><img
                   src={feature.img}
                   alt={feature.title}
                   className="w-full h-64 object-cover"
-                />
+                /></Link>
                 <div className="p-4">
                   <h3 className="text-sm font-medium font-poppins">{feature.title}</h3>
                 </div>

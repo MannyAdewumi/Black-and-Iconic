@@ -17,9 +17,10 @@ const Hero = () => {
             <p className='text-sm md:text-[16px] text-gray-400 mb-8 font-montserrat font-medium max-w-2xl mx-auto'>
                 Discover, share, and contribute to a vibrant collection of images that celebrate the beauty and diversity of Africa.
             </p>
-            <button className='bg-white text-black font-medium font-poppins px-6 py-2 rounded-full hover:bg-gray-400 hover:font-semibold hover: ring-1 ring-gray-300 transition'>
-                Get started for free
-            </button>
+            <Link to="/register">
+                <button className='bg-white text-black font-medium font-poppins px-6 py-2 rounded-full hover:bg-gray-400 hover:font-semibold hover: ring-1 ring-gray-300 transition'>
+                Get started for free</button>
+            </Link>
         </div>
 
         {/* Background Image */}
